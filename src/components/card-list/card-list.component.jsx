@@ -1,12 +1,11 @@
-import { Component, useState } from "react";
-import "./card-list.styles.css"
+import { CardListContainer } from "./card-list.styles.jsx"
 import Card from '../card/card.component'
 
 export default function CardList(props) {
     const { monsters } = props
 
     return (
-        <div className="card-list">
+        <CardListContainer>
             {monsters.map((monster) => {
                 const { name, id, email } = monster
 
@@ -15,7 +14,7 @@ export default function CardList(props) {
 
                 )
             })}
-        </div>
+        </CardListContainer>
     )
 }
 

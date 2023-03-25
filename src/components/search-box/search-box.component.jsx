@@ -1,10 +1,8 @@
-import { Component } from "react";
-import "./search-box.styles.css"
+import { SearchBoxInput } from "./search-box.styles.jsx"
 
 export default function SearchBox(props) {
     return (
-        <input
-            className={`search-box ${props.className}`}
+        <SearchBoxInput
             type="search"
             placeholder={props.placeholder}
             onChange={props.onSearchHandler}

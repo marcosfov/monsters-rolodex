@@ -1,4 +1,6 @@
-.search-box {
+import styled from "styled-components";
+
+export const SearchBoxInput = styled.input`
   -webkit-appearance: none;
   border: none;
   outline: none;
@@ -6,4 +8,4 @@
   width: 150px;
   line-height: 30px;
   margin-bottom: 30px;
-}
+`
