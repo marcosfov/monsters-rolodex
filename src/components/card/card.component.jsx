@@ -1,15 +1,14 @@
-import { Component } from "react";
-import "./card.styles.css"
+import { CardContainer } from "./card.styles.jsx"
 
 
 export default function Card(props) {
     const { name, id, email } = props
     return (
-        <div className="card-container" key={id}>
+        <CardContainer key={id}>
             <img alt={`monster ${name}`} src={`https://robohash.org/${id}?set=set2&size=180x180`} />
             <h1>{name}</h1>
             <p>{email}</p>
-        </div>
+        </CardContainer>
     )
 }
 // class Card extends Component {
