@@ -23,7 +23,7 @@ Um projeto de estudos que atua como base para aprender os conceitos do React e p
 
 ## 👀Demonstração
 
-[Link de Demonstração](https://marcosfov.github.io/monsters-rolodex/)
+[Link de Demonstração](https://monsters-rolodex-mfov.netlify.app/)
 
 </div>
 
