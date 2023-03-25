@@ -10,14 +10,24 @@ Um projeto de estudos que atua como base para aprender os conceitos do React e p
 - <a href="#tecnologias">Tecnologias Utilizadas</a>
 - <a href="#passos">Próximas Atualizações</a>
 
+<div id='funcionalidades'/> 
+
 ## 📱Funcionalidades do Projeto
 
 - [x] Lista de Monstros
 - [x] Busca de Monstros pelo nome
 
+</div>
+
+<div id='demonstracao'/> 
+
 ## 👀Demonstração
 
-[Link de Demonstração]
+[Link de Demonstração](https://marcosfov.github.io/monsters-rolodex/)
+
+</div>
+
+<div id='rodar'/> 
 
 ## ⚙️Como rodar este projeto?
 
@@ -38,6 +48,10 @@ $ npm start
 
 ```
 
+</div>
+
+<div id='tecnologias'/> 
+
 ## 👨‍💻Tecnologias Utilizadas
 
 - Versão 1.0
@@ -46,8 +60,14 @@ $ npm start
   3. CSS
   4. JAVASCRIPT
 
+</div>
+
+<div id='passos'/> 
+
 ## 🚀Próximas Atualizações
 
 - [ ] Implementação de styled components
 - [ ] Ajuste de responsividade do site
 - [ ] Implementação de Typescript
+
+</div>
