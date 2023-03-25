@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Projeto Monsters Rolodex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um projeto de estudos que atua como base para aprender os conceitos do React e para implementação de futuras melhorias de funcionalidades, como por exemplo: styled components, testes unitários e typescript.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- <a href="#funcionalidades">Funcionalidades do Projeto</a>
+- <a href="#demonstracao">Demonstração</a>
+- <a href="#rodar">Como rodar este projeto?</a>
+- <a href="#tecnologias">Tecnologias Utilizadas</a>
+- <a href="#passos">Próximas Atualizações</a>
 
-### `npm start`
+## 📱Funcionalidades do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [x] Lista de Monstros
+- [x] Busca de Monstros pelo nome
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 👀Demonstração
 
-### `npm test`
+[Link de Demonstração]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️Como rodar este projeto?
 
-### `npm run build`
+```bash
+# Clone este repositório
+$ git clone linkrepo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Acesse a pasta do projeto no seu terminal
+$ cd monsters-rolodex
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Instale as dependências
+$ npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Execute a aplicação
+$ npm start
 
-### `npm run eject`
+# A aplicação será iniciada na porta 3000, acesse pelo navegador: http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👨‍💻Tecnologias Utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Versão 1.0
+  1. React
+  2. HTML
+  3. CSS
+  4. JAVASCRIPT
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀Próximas Atualizações
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Implementação de styled components
+- [ ] Ajuste de responsividade do site
+- [ ] Implementação de Typescript
