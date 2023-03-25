@@ -10,7 +10,7 @@ Um projeto de estudos que atua como base para aprender os conceitos do React e p
 - <a href="#tecnologias">Tecnologias Utilizadas</a>
 - <a href="#passos">Próximas Atualizações</a>
 
-<div id='funcionalidades'/> 
+<div id='funcionalidades'/>
 
 ## 📱Funcionalidades do Projeto
 
@@ -19,7 +19,7 @@ Um projeto de estudos que atua como base para aprender os conceitos do React e p
 
 </div>
 
-<div id='demonstracao'/> 
+<div id='demonstracao'/>
 
 ## 👀Demonstração
 
@@ -27,7 +27,7 @@ Um projeto de estudos que atua como base para aprender os conceitos do React e p
 
 </div>
 
-<div id='rodar'/> 
+<div id='rodar'/>
 
 ## ⚙️Como rodar este projeto?
 
@@ -50,7 +50,7 @@ $ npm start
 
 </div>
 
-<div id='tecnologias'/> 
+<div id='tecnologias'/>
 
 ## 👨‍💻Tecnologias Utilizadas
 
@@ -62,11 +62,11 @@ $ npm start
 
 </div>
 
-<div id='passos'/> 
+<div id='passos'/>
 
 ## 🚀Próximas Atualizações
 
-- [ ] Implementação de styled components
+- [x] Implementação de styled components
 - [ ] Ajuste de responsividade do site
 - [ ] Implementação de Typescript
 
