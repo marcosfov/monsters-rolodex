@@ -62,7 +62,7 @@ $ npm start
 
 </div>
 
-<div id='passos'/>
+<div id='passos'>
 
 ## 🚀Próximas Atualizações
 
