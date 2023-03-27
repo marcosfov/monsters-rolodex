@@ -1,15 +1,17 @@
-import { CardContainer } from "./card.styles.jsx"
+import { CardContainer } from "./card.styles.jsx";
+import { IMonster } from "../../App";
 
-
-export default function Card(props) {
-    const { name, id, email } = props
-    return (
-        <CardContainer key={id}>
-            <img alt={`monster ${name}`} src={`https://robohash.org/${id}?set=set2&size=180x180`} />
-            <h1>{name}</h1>
-            <p>{email}</p>
-        </CardContainer>
-    )
+export default function Card({ name, id, email }: IMonster) {
+  return (
+    <CardContainer key={id}>
+      <img
+        alt={`monster ${name}`}
+        src={`https://robohash.org/${id}?set=set2&size=180x180`}
+      />
+      <h1>{name}</h1>
+      <p>{email}</p>
+    </CardContainer>
+  );
 }
 // class Card extends Component {
 
