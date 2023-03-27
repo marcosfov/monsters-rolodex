@@ -1,21 +1,21 @@
-import { CardListContainer } from "./card-list.styles.jsx"
-import Card from '../card/card.component'
+import { CardListContainer } from "./card-list.styles.jsx";
+import Card from "../card/card.component";
+import { IMonster } from "../../App";
 
-export default function CardList(props) {
-    const { monsters } = props
+interface ICardList {
+  monsters: IMonster[];
+}
 
-    return (
-        <CardListContainer>
-            {monsters.map((monster) => {
-                const { name, id, email } = monster
+export default function CardList({ monsters }: ICardList) {
+  return (
+    <CardListContainer>
+      {monsters.map((monster) => {
+        const { name, id, email } = monster;
 
-                return (
-                    <Card id={id} name={name} email={email} key={id} />
-
-                )
-            })}
-        </CardListContainer>
-    )
+        return <Card id={id} name={name} email={email} key={id} />;
+      })}
+    </CardListContainer>
+  );
 }
 
 // class CardList extends Component {

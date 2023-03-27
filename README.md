@@ -68,6 +68,6 @@ $ npm start
 
 - [x] Implementação de styled components
 - [ ] Ajuste de responsividade do site
-- [ ] Implementação de Typescript
+- [x] Implementação de Typescript
 
 </div>
